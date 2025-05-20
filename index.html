@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reservá tu turno</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Reservá tu turno</h1>
+  <form id="reservaForm" action="https://script.google.com/macros/s/AKfycbxSEe26Cp5UKRONY-jZ9fDSx-CPTQdnJC8YDycrnAUAwQohIwX8IgZMTTGrDy5TdDQe/exec" method="GET" target="dummyframe">
+    <label for="nombre">Nombre</label>
+    <input type="text" id="nombre" name="nombre" required />
+
+    <label for="servicio">Servicio</label>
+    <select id="servicio" name="servicio" required>
+      <option value="">Seleccioná una opción</option>
+      <option value="Corte de pelo">Corte de pelo</option>
+      <option value="Barba">Barba</option>
+      <option value="Ambos">Corte y Barba</option>
+    </select>
+
+    <label for="fecha">Fecha</label>
+    <input type="date" id="fecha" name="fecha" required />
+
+    <label for="hora">Hora</label>
+    <input type="time" id="hora" name="hora" required />
+
+    <button type="submit">Reservar turno</button>
+    <div class="success" id="successMsg" style="display:none;">¡Turno enviado! Verificá en la hoja de cálculo.</div>
+  </form>
+
+  <iframe name="dummyframe" style="display:none;"></iframe>
+
+  <script src="script.js"></script>
+</body>
+</html>

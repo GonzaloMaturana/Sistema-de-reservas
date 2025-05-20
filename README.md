@@ -17,6 +17,8 @@ Este proyecto es un sistema de reservas simple y funcional, pensado para pequeñ
 ## 📷 Captura de pantalla
 
 ![demo](./demo.png)
+![demo](./demo(2).png)
+
 
 ---
 
@@ -55,7 +57,6 @@ Se puede personalizar para cada cliente:
 
 Podés probar una versión de ejemplo online:
 🔗 [Ver demo en Netlify](https://sistemadereservasdemo.netlify.app/)  
-_(Reemplazá este link con tu URL real)_
 
 ---
 
@@ -66,7 +67,7 @@ _(Reemplazá este link con tu URL real)_
 
 ## 🤝 Autor
 
-Desarrollado por [Gonzalo Maturana]  
+Desarrollado por Gonzalo Maturana]  
 📧 Contacto: gonzamaturana2020@gmail.com  
 🌍 Portafolio: https://app.netlify.com/teams/gonzamaturana2020/projects
 

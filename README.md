@@ -1,62 +1,34 @@
-# 🗓️ Sistema de Reservas con Google Sheets
+# Sistema de Reservas Online
 
-Este proyecto es un sistema de reservas simple y funcional, pensado para pequeños negocios que necesitan recibir turnos online sin conocimientos técnicos. El formulario se conecta directamente con una hoja de cálculo de Google Sheets donde se registran automáticamente los turnos reservados.
-
----
-
-## 🚀 Características principales
-
-- ✅ Formulario web moderno y responsivo
-- ✅ Sin bases de datos complicadas
-- ✅ Se integra directamente con Google Sheets
-- ✅ Se puede personalizar fácilmente (servicios, estilos, horarios)
-- ✅ Desplegado en Netlify o desde archivo local
+Este proyecto es un sistema de reservas simple y funcional que utiliza Google Sheets como base de datos y se puede implementar rápidamente con HTML y Apps Script. Ideal para pequeñas empresas como peluquerías, consultorios o estudios que necesiten tomar turnos online.
 
 ---
 
-## 📷 Captura de pantalla
+## 📷 Capturas de pantalla
 
-![demo](./demo.png)
-![demo](./demo(2).png)
+### Formulario principal
+![Formulario](formulario.png)
 
+### Turno registrado en Google Sheets
+![Turno guardado](turno.png)
 
 ---
 
-## 🛠️ Tecnologías usadas
+## 🚀 Tecnologías utilizadas
 
-- HTML5 + CSS3
-- JavaScript
+- HTML + CSS (formulario y diseño)
 - Google Apps Script (backend sin servidor)
-- Google Sheets (como base de datos)
-- Netlify (para desplegar el formulario online)
+- Google Sheets (base de datos de turnos)
+- Netlify (hosting gratuito)
 
 ---
 
-## 💡 Cómo funciona
+## ⚙️ Cómo funciona
 
-1. El cliente llena el formulario con nombre, servicio, fecha y hora.
-2. Al hacer clic en "Reservar turno", los datos se envían directamente a un Google Apps Script.
-3. El Script guarda automáticamente el turno en una hoja de cálculo de Google Sheets.
-4. El cliente recibe una confirmación en pantalla.
-
----
-
-## 🔧 Personalización
-
-Se puede personalizar para cada cliente:
-- ✏️ Servicios ofrecidos
-- 🎨 Estilos visuales (colores, logo, tipografía)
-- 🕒 Rango de horarios
-- 🌐 Dominio propio o página en Netlify
-
-> 🔐 Cada cliente recibe su propia hoja de cálculo privada con el control total sobre sus datos.
-
----
-
-## 🧪 Demo
-
-Podés probar una versión de ejemplo online:
-🔗 [Ver demo en Netlify](https://sistemadereservasdemo.netlify.app/)  
+1. El usuario completa el formulario con su nombre, servicio, fecha y hora.
+2. Al hacer clic en "Reservar turno", los datos se envían a un script de Google Apps.
+3. El script guarda automáticamente la información en una hoja de cálculo.
+4. El cliente ve un mensaje de confirmación en pantalla.
 
 ---
 
@@ -65,14 +37,35 @@ Podés probar una versión de ejemplo online:
 
 ---
 
-## 🤝 Autor
+## 🛠️ ¿Cómo se configura para otro cliente?
 
-Desarrollado por Gonzalo Maturana]  
-📧 Contacto: gonzamaturana2020@gmail.com  
-🌍 Portafolio: https://app.netlify.com/teams/gonzamaturana2020/projects
+1. Hacer una copia de la hoja de cálculo original.
+2. Abrir el editor de Apps Script, pegar el código y hacer una nueva implementación como app web.
+3. Reemplazar el URL del script en el archivo `index.html`.
+4. Subir el proyecto a Netlify u otro hosting.
+5. Transferir la propiedad de la hoja de cálculo al cliente.
+6. Entregarle el enlace de su página de reservas.
 
 ---
 
-## 📝 Licencia
+## ✨ Características adicionales
 
-Este proyecto está licenciado bajo MIT License.
+- Diseño simple y profesional (con fuente Roboto).
+- Código claro y bien estructurado para facilitar su análisis o personalización.
+- No requiere backend ni base de datos externa.
+- Fácil de adaptar y escalar.
+
+---
+
+## ✅ Ideal para
+
+- Freelancers que quieren vender soluciones listas para usar.
+- Emprendedores que no saben programar.
+- Proyectos educativos o demostraciones.
+
+---
+
+## 📩 Contacto
+
+Si querés consultar sobre personalizaciones o implementación de este sistema, podés escribirme.
+
